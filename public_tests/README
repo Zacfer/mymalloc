@@ -1,0 +1,24 @@
+These files contain test code for the COMP2009 coursework. You are to do your final testing
+on linuxproj.
+
+Instructions
+------------
+1. Place your mymalloc.c, mymalloc.h and mymalloc_threadsafe.c in this directory. 
+If you don't yet have a mymalloc_threadsafe.c, for now use a copy of your mymalloc.c, i.e. type
+	
+	cp mymalloc.c mymalloc_threadsafe.c
+
+2. Run make. Two executables are produced
+
+	runtests - runs a standard test. Feel free to change the SEED and SIZE parameters in 
+			   the Makefile. I will run this test with several different values of SIZE and 
+			   SEED as part of the marking process.
+			   
+	runthreadedtests - runs a multithreaded test where your functions are called simultanously
+				from several different threads. In addition to SEED and SIZE, feel free to 
+				change the THREADS parameter (the number of threads) and the OPS parameter 
+				(the number of mymalloc/myfree calls per thread)
+				
+If you have any questions, feel free to email me.
+
+Pawel.
