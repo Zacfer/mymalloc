@@ -1,4 +1,4 @@
-Mymalloc - Implementation of a memory allocation function
+Simple implementation of malloc
 ========
 
 This is an implementation of an efficient memory allocation function, where the memory to be allocated is an (int) array
